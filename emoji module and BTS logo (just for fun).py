@@ -5,7 +5,7 @@ bot = 0
 meio = 0
 N = int(input('Informe o tamanho da figura: '))
 n_of_black_hearts = 0
-black_heart = emoji.emojize(":black_circle:")
+black_heart = emoji.emojize(":black_heart:")
 n_of_purple_hearts = int(N/2)
 purple_heart = emoji.emojize(":purple_heart:")
 
