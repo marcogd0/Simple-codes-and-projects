@@ -16,7 +16,8 @@ print("-="*30)
 for l in range(N):
     for c in range(N):
         print(f"[{matriz[l][c]:^3}]", end="")
-    print()# print que faz parte da linha para fazer o pulo
+    print()
+# print que faz parte da linha para fazer o pulo
 
 total = 0
 i = 0
