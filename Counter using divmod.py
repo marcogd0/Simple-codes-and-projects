@@ -4,7 +4,7 @@ def countdown(time_sec):
 	while time_sec:
 		# Syntax: divmod(a, b)
 		# a and b : b divides a
-		# (integer division, remaining quotient)
+		# (quotient, remainder)
 		mins, secs = divmod(time_sec, 60)
 		timeformat = '{:02d}:{:02d}'.format(mins, secs)
 		print(timeformat, end='\r')
