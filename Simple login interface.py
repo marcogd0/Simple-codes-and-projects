@@ -11,7 +11,7 @@ layout = [
 ]
 
 # Passing the layout to the window
-window = sg.Window('Login', layout=layout)
+window = sg.Window('Login', resizable=True, layout=layout)
 
 # Logic applied to the window
 while True:
