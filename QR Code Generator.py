@@ -6,7 +6,7 @@ def generate_qr_code(link):
     qr = qrcode.QRCode(version=1, box_size=10, border=5)
     qr.add_data(link)
     qr.make(fit=True)
-    img = qr.make_image(fill="black", back_color="white")
+    img = qr.make_image(fill_color=(0, 255, 255), back_color=(0, 0, 0)) # fill = Cyan, Background = Black
     file_name = "qr_code" + ".png"
     path = os.path.join(os.getcwd(), file_name)
     img.save(path)
