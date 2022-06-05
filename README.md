@@ -13,6 +13,7 @@ What you will find inside the files:
 - random
 - turtle
 - PySimpleGUI
+- qrcode
 
 **Logic**
 - Some functions of the modules listed above
